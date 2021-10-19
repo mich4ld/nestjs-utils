@@ -1,5 +1,8 @@
 {
   "name": "@mich4l/nestjs-utils",
+  "files": [
+    "dist"
+  ],
   "version": "1.0.0",
   "description": "My personal Nest.js utils",
   "main": "dist/index.js",
@@ -7,6 +10,13 @@
   "author": "mich4l",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "nestjs",
+    "joi",
+    "utils",
+    "typescript",
+    "nest"
+  ],
   "scripts": {
     "prebuild": "rimraf dist",
     "build": "nest build",
