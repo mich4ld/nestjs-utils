@@ -1,0 +1,36 @@
+{
+  "name": "@mich4l/nestjs-utils",
+  "version": "1.0.0",
+  "description": "My personal Nest.js utils",
+  "main": "dist/index.js",
+  "repository": "git@github.com:mich4ld/nestjs-utils.git",
+  "author": "mich4l",
+  "license": "MIT",
+  "private": false,
+  "scripts": {
+    "prebuild": "rimraf dist",
+    "build": "nest build",
+    "test": "jest"
+  },
+  "peerDependencies": {
+    "@nestjs/common": "8.x",
+    "@nestjs/core": "8.x",
+    "@nestjs/cli": "8.x",
+    "joi": "17.x"
+  },
+  "devDependencies": {
+    "@nestjs/cli": "^8.1.4",
+    "@nestjs/common": "^8.1.1",
+    "@nestjs/core": "^8.1.1",
+    "@nestjs/schematics": "^8.0.4",
+    "@types/node": "^16.11.1",
+    "joi": "^17.4.2",
+    "reflect-metadata": "^0.1.13",
+    "rimraf": "^3.0.2",
+    "rxjs": "^7.4.0",
+    "ts-loader": "^9.2.6",
+    "ts-node": "^10.3.0",
+    "tsconfig-paths": "^3.11.0",
+    "typescript": "^4.4.4"
+  }
+}
