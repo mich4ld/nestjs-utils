@@ -3,7 +3,7 @@
   "files": [
     "dist"
   ],
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "My personal Nest.js utils",
   "main": "dist/index.js",
   "repository": "git@github.com:mich4ld/nestjs-utils.git",
@@ -23,9 +23,9 @@
     "test": "jest"
   },
   "peerDependencies": {
+    "@nestjs/cli": "8.x",
     "@nestjs/common": "8.x",
     "@nestjs/core": "8.x",
-    "@nestjs/cli": "8.x",
     "joi": "17.x"
   },
   "devDependencies": {
