@@ -7,7 +7,11 @@ export class JoiPipe implements PipeTransform {
   ) { }
 
   transform(input: unknown) {
-    const { value, error } = this.schema.validate(input);
+    const { value, error } = this.schema.validate(input, {
+      abortEarly: true,
+      stripUnknown: true,
+      presence: 'required',
+    });
 
     if (error) {
       throw new BadRequestException(error.message);
